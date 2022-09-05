@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/alanmoncada1/jest-summary/issues"
   },
-  "homepage": "https://github.com/alanmoncada1/jest-summary#readme"
+  "homepage": "https://github.com/alanmoncada1/jest-summary#readme",
+  "devDependencies": {
+    "jest": "^29.0.2"
+  }
 }
