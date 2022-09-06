@@ -42,3 +42,23 @@ test("Test a callback", () => {
     });
 });
 
+
+/**
+ * Test a Promise
+ */
+const reverseStringPromise = str => {
+    return new Promise((resove, reject) => {
+
+        if(!str)
+            reject(console.error('Error'))
+
+        resove(str.split("").reverse().join(""));
+
+    });
+}
+
+test('Test a promise', () => {
+    return reverseStringPromise('Hi').then( string => {
+        expect(string).toBe('iH');
+    });
+});
