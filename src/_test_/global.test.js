@@ -21,7 +21,7 @@ beforeEach(() => console.log("Before each test execute this."));
 /**
  * Execute before all tests
  */
- beforeAll(() => console.log("Before each test execute this."));
+ beforeAll(() => console.log("Before all execute this."));
 
 /**
  * Test to try to search a match in a given string
