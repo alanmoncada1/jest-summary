@@ -62,3 +62,12 @@ test('Test a promise', () => {
         expect(string).toBe('iH');
     });
 });
+
+/**
+ * Test Async/Await
+ */
+test('Test Async/Await', async () => {
+    const string = await reverseStringPromise('Hi');
+
+    expect(string).toBe('iH');
+});
