@@ -7,7 +7,7 @@ Jest Summary is a set of test functions built in [Jest](https://jestjs.io/).
 Use the package manager [npm](https://www.npmjs.com/) to install Jest Summary.
 
 ```bash
-npm install
+  npm install
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install
 Use the test script to run all the test cases.
 
 ```bash
-npm run test
+  npm run test
 ```
 
 ## Contributing
