@@ -1,6 +1,28 @@
 const text = "Hello World!";
 const fruits = ['apple', 'bannana', 'Cantaloupe'];
 
+
+
+/**
+ * Execute after each test 
+ */
+afterEach(() => console.log("After each test execute this."));
+
+/**
+ * Execute after all tests 
+ */
+ afterAll(() => console.log("After all tests execute this."));
+
+/**
+ * Execute before each test
+ */
+beforeEach(() => console.log("Before each test execute this."));
+
+/**
+ * Execute before all tests
+ */
+ beforeAll(() => console.log("Before each test execute this."));
+
 /**
  * Test to try to search a match in a given string
  */
