@@ -4,7 +4,8 @@
   "description": "The objective of this project is make easy to understand the jest functionalities. and how to structure a correct unit testing.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
